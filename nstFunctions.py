@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import sys
 import scipy.io
@@ -235,7 +237,7 @@ def model_nn(content_image, style_image, num_iterations=CONFIG.NUM_ITERATIONS):
 
         # 4. Load VGG 16 model
         model = load_vgg_model(
-            '/Users/yeti/DataScienceProjects/Projects/ArtGeneration/pretrained-model/imagenet-vgg-verydeep-19.mat')
+            '/home/ubuntu/CreateArt/pretrained-model/imagenet-vgg-verydeep-19.mat')
 
         # 5. To get the program to compute the content cost, we will now assign a_C and a_G to be the appropriate hidden layer activations. We will use layer conv4_2 to compute the content cost. The code below does the following:
         #

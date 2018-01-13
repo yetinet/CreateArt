@@ -3,4 +3,8 @@
 *.iml
 *.png
 *.jpg
+*.jpeg
+*.mat
 
+
+pretrained-model
