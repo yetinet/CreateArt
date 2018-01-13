@@ -16,4 +16,4 @@ if __name__== "__main__":
 
 # Invoke like
 # parameters are content image path, style image path, output directory, number of training iterations, alpha for cost, beta for cost
-# python3 CreateArt.py ~/CreateArt/images/louvre_small.jpg  ~/CreateArt/images/monet.jpg ~/CreateArt/output 200 10 40
+# python3 CreateArt.py images/content/ventana-circle_300_400.jpg images/style/TheScream_300_400.jpg ~/CreateArt/output 300 10 40
